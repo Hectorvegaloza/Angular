@@ -19,7 +19,12 @@ export class AppComponent {
   todosLosDatos: any[] =[];
   obtenertodoslosdatos(){
     this.dataservice.obtenerDatos().subscribe((respuesta:any)=>{
-    console.log("respuesta:", respuesta);
+      console.log(respuesta)
+      if (respuesta) {
+      this.todosLosDatos = respuesta;
+      } else {
+        console.log("ocurrió un error, no existe respuesta.items");
+      }
     } );
   }
   ngOnInit(){

@@ -1,8 +1,37 @@
-<header>
-
+<header class="text-center my-5">
+  <h1>Colombia </h1>
+  <p>Lugares turisticos por visitar</p>
+  <div class="navbar  shadow-sm" style="background-color: #ffd900cb;"></div>
+  <div class="navbar  shadow-sm" style="background-color: #1100ffcb;"></div>
+  <div class="navbar  shadow-sm" style="background-color: #ff0000cc;"></div>
 </header>
+<main class="container d-flex flex-wrap justify-content-center gap-5 ">
 
-<p>Works</p>
-<!-- 
-<router-outlet />
- -->
+
+  @for(elemento of todosLosDatos; track elemento.id){
+
+    <div class="card text-center colorbandeja" style="max-width: 600px">
+      <div class="card-header" >
+          <img src="{{elemento.images}}" class="card-img-top rounded float-start" alt="foto de {{elemento.name}}" >
+          <div class="card-body">
+              <h5 class="card-title colorbandeja">{{elemento.name}}</h5>
+              <h6 class="card-text colorbandeja">Ubicado en: {{elemento.city.name}}</h6>
+          <ul class="list-group list-group-flush ">
+            <li class="list-group-item colorbandeja">Descripción {{elemento.description}}</li>
+            <li class="list-group-item colorbandeja">Latitud: {{elemento.latitude}}</li>
+            <li class="list-group-item colorbandeja">Logitud: {{elemento.longitude}}</li>
+            <li class="list-group-item colorbandeja">Población: {{elemento.city.population}}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  }
+
+  <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center" id="bd-theme" type="button" aria-expanded="false" data-bs-toggle="dropdown" aria-label="Toggle theme (light)">
+    <svg class="bi my-1 theme-icon-active" width="1em" height="1em"><use href="#sun-fill"></use></svg>
+    <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
+  </button>
+
+</main>
+<footer class="text-center my-5">&copy; 2024</footer>
+<!-- <router-outlet></router-outlet> -->
