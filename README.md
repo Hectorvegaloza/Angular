@@ -28,6 +28,6 @@ La Ventana al mundo es un monumento público ubicado en Barranquilla, Colombia. 
 
 - **Información Confiable**: Utilizamos la API de Colombia para proporcionar información detallada y actualizada sobre cada destino turístico.
 - **Experiencia Personalizada**: Nuestra plataforma te permite personalizar tu experiencia de viaje según tus intereses y preferencias.
-- **Ubicación Exacta**: Buscando con exactitud.
+- **Ubicación Exacta**: Buscando lugares con exactitud.
 
 ¡Prepárate para explorar los tesoros ocultos y los destinos más emblemáticos de Colombia con nosotros!
