@@ -19,7 +19,7 @@ export class AppComponent {
   todosLosDatos: any[] =[];
   obtenertodoslosdatos(){
     this.dataservice.obtenerDatos().subscribe((respuesta:any)=>{
-      console.log(respuesta)
+      
       if (respuesta) {
       this.todosLosDatos = respuesta;
       } else {
