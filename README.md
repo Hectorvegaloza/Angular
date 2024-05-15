@@ -1,6 +1,6 @@
 # Angular
 
-En este repositorio vamos a consumir una API, que tiene todos los datos mas relevantes de todo colombia destacando los destinos turisticos indicando la ubicación exacta por medio de coordenadas geograficas
+En este repositorio vamos a consumir una API (https://api-colombia.com/api/v1/TouristicAttraction) , que tiene todos los datos mas relevantes de todo colombia destacando los destinos turisticos indicando la ubicación exacta por medio de coordenadas geograficas
 
 # Descubre los Tesoros Turísticos de Colombia
 
@@ -8,7 +8,7 @@ En este repositorio vamos a consumir una API, que tiene todos los datos mas rele
 
 ## Acerca de Nosotros
 
-Soy un desarrollado en proceso que busca generar páginas Web Utiles para las personas en general
+Mi nombre es Héctor Vega, soy un desarrollador en proceso que busca generar páginas Web Utiles para las personas en general,
 
 ## Destinos Destacados
 
